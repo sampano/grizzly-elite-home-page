@@ -12,8 +12,9 @@ $(document).ready(function () {
         breakpoint: 1440,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 1,
+
           infinite: true,
+          cssEase: "linear",
         },
       },
     ],
@@ -22,9 +23,8 @@ $(document).ready(function () {
     infinite: true,
     slidesToShow: 3,
     autoplay: true,
-    autoplaySpeed: 1400,
+    autoplaySpeed: 1500,
     arrows: false,
-    // slidesToScroll: -1,
     cssEase: "linear",
     rtl: true,
     responsive: [
@@ -32,9 +32,7 @@ $(document).ready(function () {
         breakpoint: 1440,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 1,
           infinite: true,
-          // slidesToScroll: -1,
           cssEase: "linear",
         },
       },
