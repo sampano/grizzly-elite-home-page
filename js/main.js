@@ -7,11 +7,19 @@ $(document).ready(function () {
     autoplaySpeed: 1500,
     arrows: false,
     responsive: [
-      {
-        breakpoint: 1440,
-        settings: {
-          slidesToShow: 3,
+      // {
+      //   breakpoint: 1440,
+      //   settings: {
+      //     slidesToShow: 3,
 
+      //     infinite: true,
+      //     cssEase: "linear",
+      //   },
+      // },
+      {
+        breakpoint: 780,
+        settings: {
+          slidesToShow: 1,
           infinite: true,
           cssEase: "linear",
         },
@@ -27,10 +35,18 @@ $(document).ready(function () {
     cssEase: "linear",
     rtl: true,
     responsive: [
+      // {
+      //   breakpoint: 1440,
+      //   settings: {
+      //     slidesToShow: 3,
+      //     infinite: true,
+      //     cssEase: "linear",
+      //   },
+      // },
       {
-        breakpoint: 1440,
+        breakpoint: 780,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 1,
           infinite: true,
           cssEase: "linear",
         },

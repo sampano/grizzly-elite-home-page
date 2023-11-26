@@ -94,8 +94,20 @@
   }
 }
 
-@media (max-width: 576px) {
-  .nav {
-    flex-direction: column;
+@media only screen and (max-width: 480px) {
+  .homeheader {
+    .review {
+      flex-wrap: wrap;
+    }
+    .nav {
+      flex-direction: column;
+    }
+
+    .email-form {
+      display: none;
+    }
+    .rectangle-second {
+      display: none;
+    }
   }
 }

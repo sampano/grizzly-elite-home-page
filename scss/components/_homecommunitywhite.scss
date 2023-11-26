@@ -35,3 +35,13 @@
     }
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .homecommunity-white {
+    .content-image_container {
+      .content-image {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}

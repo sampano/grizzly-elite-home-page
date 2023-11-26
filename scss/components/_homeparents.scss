@@ -20,3 +20,11 @@
     line-height: 32px;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .homeparents {
+    .homeparents-card {
+      flex-wrap: wrap;
+    }
+  }
+}

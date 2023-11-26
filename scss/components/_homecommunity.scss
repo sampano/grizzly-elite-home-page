@@ -11,3 +11,13 @@
     }
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .homecommunity {
+    .content-image_container {
+      .content-image {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}

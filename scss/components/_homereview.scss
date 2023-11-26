@@ -74,3 +74,31 @@
     }
   }
 }
+@media only screen and (max-width: 480px) {
+  .homereview {
+    .schools {
+      flex-wrap: wrap;
+      .school {
+        width: 100%;
+      }
+    }
+    .rectangle-first {
+      display: none;
+    }
+
+    .rectangle-second {
+      display: none;
+    }
+
+    .rectangle-third {
+      display: none;
+    }
+
+    .rectangle-fourth {
+      display: none;
+    }
+    .testimonial-container {
+      width: 100%;
+    }
+  }
+}
