@@ -1,5 +1,14 @@
 .homereview {
   position: relative;
+  .header-container {
+    position: relative;
+    .red-arrow-icon {
+      position: absolute;
+      position: absolute;
+      top: 42%;
+      right: 24%;
+    }
+  }
   .rectangle-first {
     position: absolute;
     top: 34%;
@@ -12,13 +21,13 @@
   }
   .rectangle-third {
     position: absolute;
-    bottom: -12%;
+    bottom: -13%;
     right: 0;
     z-index: 1;
   }
   .rectangle-fourth {
     position: absolute;
-    bottom: -13%;
+    bottom: -15%;
     right: 0;
     z-index: 1;
   }

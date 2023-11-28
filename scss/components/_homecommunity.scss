@@ -1,5 +1,5 @@
 .homecommunity {
-  clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%);
+  clip-path: polygon(0 0, 100% 230px, 100% 100%, 0 95%);
   background-image: url(../media/img/background-image-02.png);
   background-repeat: no-repeat;
   background-position: 2px -16px;
@@ -8,6 +8,20 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+    }
+  }
+  .avartar-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .avatar-card_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    .avartar-card {
+      align-items: start;
     }
   }
 }

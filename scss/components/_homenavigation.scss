@@ -1,5 +1,6 @@
 .homeheader {
   background-image: url(../media/img/background-image.png);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 1200px;
@@ -61,7 +62,7 @@
       min-height: 62px;
     }
     .email-input::placeholder {
-      font-size: 28px;
+      font-size: 18px;
     }
     button {
       position: absolute;

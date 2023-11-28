@@ -1,24 +1,33 @@
 .guarantee {
-  clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%);
+  clip-path: polygon(0 0, 100% 230px, 100% 100%, 0 95%);
   background-image: url(../media/img/background-image-02.png);
   background-repeat: no-repeat;
   background-position: 2px -40px;
-  .guarantee-card {
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 50px;
+  // .guarantee-card {
+  //   padding-top: 100px;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: flex-start;
+  //   gap: 50px;
 
-    // margin-bottom: 200px;
-    p {
-      line-height: 32px;
-    }
-    .guarantee-card_container {
-      border-radius: 8px;
-      border: 1px solid #fff;
-      min-height: 930px;
-      background-color: rgba(255, 255, 255, 0.1);
+  //   // margin-bottom: 200px;
+  //   p {
+  //     line-height: 32px;
+  //   }
+
+  // }
+  .guarantee-card_container {
+    border-radius: 8px;
+    border: 1px solid #fff;
+    min-height: 200px;
+    width: 674px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+    .inner-card {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 10px;
     }
   }
 }

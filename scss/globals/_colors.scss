@@ -3,10 +3,15 @@
   --bg-color-secondary: #b21b20;
   --text-color-primary: #f47b20;
   --text-color-secondary: #fff;
+  --bg-color-orange: #d73a1b;
 }
 
 .font-color_orange {
   color: var(--text-color-primary);
+}
+
+.font-color_true-orange {
+  color: var(--bg-color-orange);
 }
 
 .font-color_white {
@@ -39,4 +44,8 @@
 
 .bg-color_secondary {
   background-color: var(--bg-color-secondary);
+}
+
+.bg-color_orange {
+  background-color: var(--bg-color-orange);
 }
