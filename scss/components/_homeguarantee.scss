@@ -3,19 +3,7 @@
   background-image: url(../media/img/background-image-02.png);
   background-repeat: no-repeat;
   background-position: 2px -40px;
-  // .guarantee-card {
-  //   padding-top: 100px;
-  //   display: flex;
-  //   justify-content: center;
-  //   align-items: flex-start;
-  //   gap: 50px;
 
-  //   // margin-bottom: 200px;
-  //   p {
-  //     line-height: 32px;
-  //   }
-
-  // }
   .guarantee-card_container {
     border-radius: 8px;
     border: 1px solid #fff;
@@ -28,6 +16,14 @@
       justify-content: center;
       align-items: flex-start;
       gap: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .guarantee {
+    .guarantee-card_container {
+      width: 100%;
     }
   }
 }

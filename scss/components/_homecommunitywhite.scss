@@ -44,5 +44,12 @@
         flex-wrap: wrap;
       }
     }
+
+    .content-testimonial {
+      flex-wrap: wrap;
+      .content-testimonial_main {
+        width: 100%;
+      }
+    }
   }
 }

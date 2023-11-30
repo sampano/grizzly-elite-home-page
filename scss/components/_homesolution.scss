@@ -59,3 +59,16 @@
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  .homesolution {
+    .solution-card {
+      flex-wrap: wrap;
+      .solution-card_container {
+        .content-text {
+          height: auto;
+        }
+      }
+    }
+  }
+}

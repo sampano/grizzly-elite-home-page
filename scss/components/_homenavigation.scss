@@ -39,6 +39,10 @@
     }
   }
 
+  .nav.mobile-nav {
+    display: none;
+  }
+
   .email-form {
     display: flex;
     justify-content: center;
@@ -100,12 +104,37 @@
     .review {
       flex-wrap: wrap;
     }
-    .nav {
-      flex-direction: column;
+    // .nav {
+    //   flex-direction: column-reverse;
+    // }
+
+    .nav.web-nav {
+      display: none;
+    }
+    .nav.mobile-nav {
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 20px;
+      padding-right: 20px;
+      .menu {
+        text-align: right;
+      }
+
+      .contact-number {
+        background-position: 68px center;
+        text-align: center;
+      }
     }
 
     .email-form {
-      display: none;
+      .email-input {
+        min-width: 1px;
+        width: 250px;
+      }
+      button {
+        font-size: 18px;
+        padding-right: 35px;
+      }
     }
     .rectangle-second {
       display: none;

@@ -4,7 +4,6 @@
     position: relative;
     .red-arrow-icon {
       position: absolute;
-      position: absolute;
       top: 42%;
       right: 24%;
     }
@@ -108,6 +107,13 @@
     }
     .testimonial-container {
       width: 100%;
+    }
+
+    .header-container {
+      .red-arrow-icon {
+        top: 41%;
+        right: -1%;
+      }
     }
   }
 }

@@ -1,5 +1,5 @@
 .homecommunity {
-  clip-path: polygon(0 0, 100% 230px, 100% 100%, 0 95%);
+  clip-path: polygon(0 0, 100% 230px, 100% 100%, 0 98%);
   background-image: url(../media/img/background-image-02.png);
   background-repeat: no-repeat;
   background-position: 2px -16px;
@@ -32,6 +32,9 @@
       .content-image {
         flex-wrap: wrap;
       }
+    }
+    .avatar-card_container {
+      flex-wrap: wrap;
     }
   }
 }
