@@ -97,14 +97,15 @@
           US Admission Officer Drool.*
           <span class="font-weight_700">Or We Work for Free.</span>
         </p>
-        <form class="email-form pb-10">
+        <form class="email-form pb-10" id="grizzlySubscription">
           <div class="email-form_container">
             <input
               class="email-input"
               type="email"
-              name=""
-              id=""
+              name="studentEmail"
+              id="studentEmail"
               placeholder="Enter your email"
+              required
             />
             <button type="submit">
               Do it
@@ -2623,6 +2624,7 @@
               Let us know below. We would love to help.
             </p>
             <form
+              id="grizzlyQuestionForm"
               action=""
               class="homeprocess-form_form pl-100 pr-100 m-pl-0 m-pr-0"
             >
@@ -2630,23 +2632,26 @@
                 <input
                   type="text"
                   name="name"
-                  id=""
+                  id="studentName"
                   placeholder="Name"
                   class="input-name"
+                  required
                 />
                 <input
                   type="email"
                   name="email"
-                  id=""
+                  id="studentEmailQuestion"
                   placeholder="Email"
                   class="input-email"
+                  required
                 />
                 <input
                   type="text"
                   name="message"
-                  id=""
+                  id="studentMessage"
                   placeholder="Message"
                   class="width_100"
+                  required
                 />
               </div>
               <div class="text-align_center pt-50">
@@ -2726,6 +2731,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="./js/main.js"></script>
+    <script src="./js/utility.js"></script>
+    <script src="./js/formValidation.js"></script>
   </body>
 </html>
